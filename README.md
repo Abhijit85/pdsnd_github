@@ -13,3 +13,6 @@ Files used are Bikeshare.py and data are stored in .csv files
 ### Credits
 Credit goes to https://stackify.com › Posts › Developer Tips, Tricks & Resources
 and hacker.io
+
+###Notes
+Bikeshare has additional features that enables user interaction during the data view asking the user to type in their choices after every stats.
