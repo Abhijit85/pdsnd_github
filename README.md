@@ -11,4 +11,5 @@ This project is regarding statistical study of the Bikeshare data from the three
 Files used are Bikeshare.py and data are stored in .csv files
 
 ### Credits
-It's important to give proper credit. Add links to any repo that inspired you or blogposts you consulted.
+Credit goes to https://stackify.com › Posts › Developer Tips, Tricks & Resources
+and hacker.io
