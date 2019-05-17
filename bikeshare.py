@@ -131,13 +131,13 @@ def station_stats(df):
     start_time = time.time()
     df['Stations'] = df['Start Station'].str.cat(df['End Station'],sep=",")
 
-    # TO DO: display most commonly used start station
+    # Displaying most commonly used start station
     print('Most commonly used start station:', df['Start Station'].mode()[0])
 
-    # TO DO: display most commonly used end station
+    # Displaying most commonly used end station
     print('Most commonly used end station:', df['End Station'].mode()[0])
 
-    # TO DO: display most frequent combination of start station and end station trip
+    # Displaying most frequent combination of start station and end station trip
 
 
     print('Most commonly used combination of start station and end station trip:', df['Stations'].mode()[0])
@@ -152,10 +152,10 @@ def trip_duration_stats(df):
     print('\nCalculating Trip Duration...\n')
     start_time = time.time()
 
-    # TO DO: display total travel time
+    # Displaying total travel time
     print ('Total trip duration: ',df['Trip Duration'].sum())
 
-    # TO DO: display mean travel time
+    # Displaying mean travel time
     print('Mean trip duration: ',df["Trip Duration"].mean())
 
     print("\nThis took %s seconds." % (time.time() - start_time))
@@ -189,6 +189,8 @@ def user_stats(df):
 
     print("\nThis took %s seconds." % (time.time() - start_time))
     print('-'*40)
+
+    # This is the function that enables user to view the raw data while on the disoplay screen
 def data_view(df):
 
      count = 0
