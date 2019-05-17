@@ -16,3 +16,6 @@ and hacker.io
 
 ###Notes
 Bikeshare has additional features that enables user interaction during the data view asking the user to type in their choices after every stats.
+
+###Additional function for raw data
+Bikeshare code has additional custom function that enabled the user interaction during the execution asking the user to let the system know if they want to view the raw data
